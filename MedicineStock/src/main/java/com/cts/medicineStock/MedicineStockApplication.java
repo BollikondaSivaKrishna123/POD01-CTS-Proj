@@ -8,6 +8,9 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class MedicineStockApplication {
 
+	
+	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(MedicineStockApplication.class, args);
 	}
