@@ -11,6 +11,8 @@ public class MedicineStockApplication {
 	
 	
 	
+	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(MedicineStockApplication.class, args);
 	}
