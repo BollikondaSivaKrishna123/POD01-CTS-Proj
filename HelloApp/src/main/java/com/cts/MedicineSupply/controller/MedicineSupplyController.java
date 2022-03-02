@@ -20,7 +20,7 @@ import com.cts.MedicineSupply.service.MedicineSupplyService;
 public class MedicineSupplyController {
 	@Autowired
 	private MedicineSupplyService medicineSupplyService;
-	@GetMapping("/SupplyAvailed/{name}")
+	 @GetMapping("/SupplyAvailed/{name}")
 	public ResponseEntity<List<MedicineSupply>> getDetailsByName(@PathVariable String name) {
 		return ResponseEntity.status(HttpStatus.OK).body(medicineSupplyService.getOrder(name));
 	}
